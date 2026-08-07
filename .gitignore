@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+
+# Artifacts
+*.joblib
+*.pkl
+feature_importance.csv
+model_evaluation/
+preprocessed_features.pkl
+
+# Data — keep datasets out of git
+*.csv
+!tests/**/*.csv
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
